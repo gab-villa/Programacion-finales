@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1676776196 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\horadeldia\horadeldia.cpp
+	"HoraDelDia.h"
+
+1676775959 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\horadeldia\main.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	"HoraDelDia.h"
+
+1676774987 c:\users\eslou\desktop\programacion-2\ej-finales-c++\horadeldia\horadeldia.h
+	<iostream>
+
