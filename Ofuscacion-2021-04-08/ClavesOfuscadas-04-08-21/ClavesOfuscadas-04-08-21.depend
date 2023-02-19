@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1676684894 source:c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LoteDePrueba.h"
+
+1676652234 source:c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\tlista.c
+	"tLista.h"
+
+1676652234 c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\tlista.h
+	<stdlib.h>
+	<string.h>
+
+1676692120 source:c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\lotedeprueba.c
+	"LoteDePrueba.h"
+
+1676691636 c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\lotedeprueba.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"tLista.h"
+	"tPila.h"
+
+1676691636 source:c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\tpila.c
+	"tPila.h"
+
+1676691636 c:\users\eslou\desktop\programacion-2\finales\clavesofuscadas-04-08-21\tpila.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
