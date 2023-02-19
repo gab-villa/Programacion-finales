@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1661604379 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\llamada\llamada.cpp
+	"Llamada.h"
+
+1670948834 c:\users\eslou\desktop\programacion-2\ej-finales-c++\llamada\llamada.h
+	<iostream>
+	<string>
+
+1660077927 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\llamada\main.cpp
+	<iostream>
+	"Llamada.h"
+

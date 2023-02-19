@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1658368140 source:c:\users\eslou\desktop\programacion-2\finales\500pilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectorPilas.h"
+	"operarVectorPilas.h"
+
+1658365729 source:c:\users\eslou\desktop\programacion-2\finales\500pilas\pila.c
+	"pila.h"
+
+1658365729 c:\users\eslou\desktop\programacion-2\finales\500pilas\pila.h
+	<stdlib.h>
+	<string.h>
+
+1658369859 source:c:\users\eslou\desktop\programacion-2\finales\500pilas\vectorpilas.c
+	"vectorPilas.h"
+	<stdio.h>
+
+1658367178 c:\users\eslou\desktop\programacion-2\finales\500pilas\vectorpilas.h
+	"pila.h"
+
+1658370430 source:c:\users\eslou\desktop\programacion-2\finales\500pilas\operarvectorpilas.c
+	"operarVectorPilas.h"
+
+1658368140 c:\users\eslou\desktop\programacion-2\finales\500pilas\operarvectorpilas.h
+	"vectorPilas.h"
+	<stdio.h>
+	<stdlib.h>
+
