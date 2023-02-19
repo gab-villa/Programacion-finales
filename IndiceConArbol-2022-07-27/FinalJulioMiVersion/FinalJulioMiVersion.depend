@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1660426986 source:c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\lotedeprueba.c
+	"LoteDePrueba.h"
+
+1660426869 source:c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LoteDePrueba.h"
+	"tArbol.h"
+
+1660427028 source:c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\tarbol.c
+	"tArbol.h"
+
+1660426753 c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\tarbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1660426708 c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\lotedeprueba.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"Estructuras.h"
+	"tArbol.h"
+
+1659487775 c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\estructuras.h
+

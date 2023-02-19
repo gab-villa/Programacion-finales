@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1660007498 source:c:\users\eslou\desktop\programacion-2\finales\final-julio-indice\vectorenteros\main.cpp
+	<iostream>
+	"VectorEnteros.h"
+
+1660007379 source:c:\users\eslou\desktop\programacion-2\finales\final-julio-indice\vectorenteros\vectorenteros.cpp
+	"VectorEnteros.h"
+
+1660005829 c:\users\eslou\desktop\programacion-2\finales\final-julio-indice\vectorenteros\vectorenteros.h
+	<ostream>
+
+1668395637 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\vectorenteros\main.cpp
+	<iostream>
+	"VectorEnteros.h"
+	<stdio.h>
+
+1668398730 c:\users\eslou\desktop\programacion-2\ej-finales-c++\vectorenteros\vectorenteros.h
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1668399600 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\vectorenteros\vectorenteros.cpp
+	"VectorEnteros.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
