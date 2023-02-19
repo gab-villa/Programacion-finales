@@ -17,7 +17,7 @@ int main()
     printf("ARBOL SIN BALANCEAR: ");
     printf("**********\n\n");
     //mostrarArbolGrafico(&p, mostrarIndice);
-    mostrarArbolGrafico2(&p, mostrarIndiceConForma);
+    mostrarArbolGrafico(&p, mostrarIndiceConForma);
     printf("\n\naltura: %d" , alturaArbol(&p));
     printf("\n\n");
 
@@ -33,7 +33,7 @@ int main()
     printf("********** ");
     printf("ARBOL BALANCEADO: ");
     printf("**********\n\n");
-    mostrarArbolGrafico2(&p, mostrarIndiceConForma);
+    mostrarArbolGrafico(&p, mostrarIndiceConForma);
     printf("\n\naltura: %d" , alturaArbol(&p));
 
     printf("HIJOS DEL ARBOL: \n");

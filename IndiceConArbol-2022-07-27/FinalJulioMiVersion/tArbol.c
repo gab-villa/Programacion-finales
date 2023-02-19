@@ -39,42 +39,7 @@ int insertarEnArbol(tArbol *p, const void *d, unsigned cantBytes,
     *p = nue;
     return TODO_OK_AR;
 }
-/*
-int insertarEnArbol2(tArbol *p, const void *d, unsigned cantBytes,
-                    int (*comp)(const void *, const void *))
-{
-    if(*p)
-    {
-        int c = comp(d, (*p)->info);
-        if(c < 0)
-        {
-            return insertarEnArbol(&(*p)->izq, d, cantBytes, comp);
-        }
-        else if(c > 0)
-        {
-            return insertarEnArbol(&(*p)->der, d, cantBytes, comp);
-        }
-        else
-        {
-            return CLA_DUP_AR;
-        }
-    }
-    tNodo *nue = (tNodo*)malloc(sizeof(tNodo));
-    if(nue == NULL)
-        return SIN_MEM_AR;
-    nue->info = malloc(cantBytes);
-    if(nue->info == NULL)
-    {
-        free(nue);
-        return SIN_MEM_AR;
-    }
-    memcpy(nue->info, d, cantBytes);
-    nue->tamInfo = cantBytes;
-    nue->izq = NULL;
-    nue->der = NULL;
-    *p = nue;
-    return TODO_OK_AR;
-}*/
+
 int sacarEnOrden(tArbol *p, void *d, unsigned cantBytes)
 {
     if(*p == NULL)
@@ -96,7 +61,7 @@ void mostrarArbolEnOrden(const tArbol *p, void (*mostrar)(const void *))
     {
         return;
     }
-    //printf("   ");
+
     mostrarArbolEnOrden(&(*p)->izq, mostrar);
     mostrar((*p)->info);
     mostrarArbolEnOrden(&(*p)->der, mostrar);
@@ -114,35 +79,7 @@ void mostrarHijos(const tArbol *p, void (*mostrar)(const void *))
         mostrar((*p)->info);
     }
 }
-/*
-void mostrarArbolGraficoAux(const tArbol *p, int i,void (*mostrar)(const void *, unsigned))
-{
-
-    if(*p == NULL)
-    {
-        return;
-    }
-    mostrarArbolGraficoAux(&(*p)->izq, i+1, mostrar);
-    int aux = i;
-    while(aux > 0)
-    {
-        printf("\t");
-        --aux;
-    }
-    mostrar((*p)->info);
-    mostrarArbolGraficoAux(&(*p)->der, i+1,  mostrar);
-}
-void mostrarArbolGrafico(const tArbol *p, void (*mostrar)(const void *))
-{
-
-    if(*p == NULL)
-    {
-        return;
-    }
-    mostrarArbolGraficoAux(p, 0, mostrar);
-    //mostrarArbolGraficoProc(p, 0, mostrar);
-}*/
-void mostrarArbolGrafico2(const tArbol *p,
+void mostrarArbolGrafico(const tArbol *p,
                           void (*mostrar)(const void *, unsigned))
 {
     mostrarArbolGraficoProc(p, 0, mostrar);

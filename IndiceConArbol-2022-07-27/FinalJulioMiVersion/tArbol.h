@@ -27,14 +27,15 @@ int insertarEnArbol(tArbol *p, const void *d, unsigned cantBytes,
 int insertarEnArbol2(tArbol *p, const void *d, unsigned cantBytes,
                     int (*comp)(const void *, const void *));
 int sacarEnOrden(tArbol *p, void *d, unsigned cantBytes);
-void mostrarArbolGrafico(const tArbol *p, void (*mostrar)(const void *));
-void mostrarArbolEnOrden(const tArbol *p, void (*mostrar)(const void *));
-void mostrarArbolGraficoAux(const tArbol *p, int i,void (*mostrar)(const void *));
-
-void mostrarArbolGrafico2(const tArbol *p,
-                          void (*mostrar)(const void *, unsigned));
+void mostrarArbolGrafico(const tArbol *p,
+                         void (*mostrar)(const void *, unsigned));
 void mostrarArbolGraficoProc(const tArbol *p, unsigned n,
                              void (*mostrar)(const void *, unsigned));
+
+void mostrarArbolEnOrden(const tArbol *p, void (*mostrar)(const void *));
+
+
+
 int alturaArbol(const tArbol *p);
 void vaciarArbol(tArbol *p);
 

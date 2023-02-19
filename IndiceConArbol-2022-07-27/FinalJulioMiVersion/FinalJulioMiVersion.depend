@@ -25,3 +25,29 @@
 
 1659487775 c:\users\eslou\desktop\programacion-2\final-julio\finaljuliomiversion\estructuras.h
 
+1660426986 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\finaljuliomiversion\lotedeprueba.c
+	"LoteDePrueba.h"
+
+1660426708 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\finaljuliomiversion\lotedeprueba.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"Estructuras.h"
+	"tArbol.h"
+
+1659487775 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\finaljuliomiversion\estructuras.h
+
+1676789171 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\finaljuliomiversion\tarbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1676789188 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\finaljuliomiversion\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LoteDePrueba.h"
+	"tArbol.h"
+
+1676789117 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\finaljuliomiversion\tarbol.c
+	"tArbol.h"
+
