@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1660072285 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\medicion\main.cpp
+	<iostream>
+	"Medicion.h"
+
+1660071450 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\medicion\unidaddiferenteexception.cpp
+	"UnidadDiferenteException.h"
+
+1660071445 c:\users\eslou\desktop\programacion-2\ej-finales-c++\medicion\unidaddiferenteexception.h
+	<exception>
+
+1660072464 source:c:\users\eslou\desktop\programacion-2\ej-finales-c++\medicion\medicion.cpp
+	"Medicion.h"
+
+1660072176 c:\users\eslou\desktop\programacion-2\ej-finales-c++\medicion\medicion.h
+	<exception>
+	<string>
+	<iostream>
+

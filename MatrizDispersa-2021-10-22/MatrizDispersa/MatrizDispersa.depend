@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1658103576 source:c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrizDispersa.h"
+
+1658103973 source:c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\matrizdispersa.c
+	"matrizDispersa.h"
+
+1658101850 source:c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\tlista.c
+	"tLista.h"
+
+1658101850 c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\tlista.h
+	<stdlib.h>
+	<string.h>
+
+1658103719 source:c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\funcionesarchivos.c
+	"funcionesArchivos.h"
+
+1658103884 c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\funcionesarchivos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tLista.h"
+	"estructuras.h"
+
+1658103929 c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\matrizdispersa.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructuras.h"
+	"tLista.h"
+	"funcionesArchivos.h"
+
+1658103920 c:\users\eslou\desktop\programacion-2\finales\matrizdispersa\estructuras.h
+	"tLista.h"
+
