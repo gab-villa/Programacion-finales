@@ -11,3 +11,15 @@
 1676774987 c:\users\eslou\desktop\programacion-2\ej-finales-c++\horadeldia\horadeldia.h
 	<iostream>
 
+1676848232 source:c:\users\eslou\desktop\programacion-2\finales\ofuscacion-2021-08-04\horadeldia\main.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	"HoraDelDia.h"
+
+1676859757 c:\users\eslou\desktop\programacion-2\finales\ofuscacion-2021-08-04\horadeldia\horadeldia.h
+	<iostream>
+
+1676859803 source:c:\users\eslou\desktop\programacion-2\finales\ofuscacion-2021-08-04\horadeldia\horadeldia.cpp
+	"HoraDelDia.h"
+

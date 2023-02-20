@@ -37,6 +37,7 @@ int main()
     cout << "FIN";
 
     HoraDelDia h1(22,54,21), h2(1,20,55), h3;
+
     h3 = h1 + h2;
     cout << h3 << endl;
 

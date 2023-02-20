@@ -4,81 +4,95 @@ HoraDelDia::~HoraDelDia()
 {
 
 }
+
 HoraDelDia::HoraDelDia()
 {
-    this->hora = 0;
-    this->minu = 0;
-    this->seg = 0;
+    horaEnSeg = 0;
 }
-HoraDelDia::HoraDelDia(int hora, int minu, int seg)
+HoraDelDia::HoraDelDia(unsigned horaEnSeg)
 {
-    this->hora = hora;
-    this->minu = minu;
-    this->seg = seg;
+    if(horaEnSeg > DIA_EN_SEG)
+    {
+        this->horaEnSeg = horaEnSeg % DIA_EN_SEG;
+    }
+    else
+    {
+        this->horaEnSeg = horaEnSeg;
+    }
 }
-HoraDelDia& HoraDelDia::operator=(const HoraDelDia& h)
+HoraDelDia::HoraDelDia(unsigned hora, unsigned minu, unsigned seg)
 {
-    hora = h.hora;
-    minu = h.minu;
-    seg = h.seg;
+    horaEnSeg = seg + minu*MINU_EN_SEG + hora*HORA_EN_SEG;
+    if(horaEnSeg > DIA_EN_SEG)
+    {
+        horaEnSeg = horaEnSeg % DIA_EN_SEG;
+    }
+}
+HoraDelDia& HoraDelDia::operator=(const HoraDelDia& hDia)
+{
+    horaEnSeg = hDia.horaEnSeg;
     return *this;
 }
-bool HoraDelDia::operator<(const HoraDelDia& h)
+
+bool HoraDelDia::operator<(const HoraDelDia& hDia)
 {
-    if(this->hora == h.hora)
-    {
-        if(this->minu == h.minu)
-        {
-            if(this->seg < h.seg)
-            {
-                return true;
-            }
-        }
-        else if(this->minu < h.minu)
-        {
-            return true;
-        }
-    }
-    else if(this->hora < h.hora)
-    {
-        return true;
-    }
-    return false;
+    return this->horaEnSeg < hDia.horaEnSeg;
 }
-bool HoraDelDia::operator>=(const HoraDelDia& h)
+bool HoraDelDia::operator>=(const HoraDelDia& hDia)
 {
-    return !(*this < h);
+    return this->horaEnSeg >= hDia.horaEnSeg;
 }
-HoraDelDia HoraDelDia::operator+(const HoraDelDia& h)
+HoraDelDia HoraDelDia::operator+(const HoraDelDia& hDia)
 {
-    HoraDelDia suma(this->hora + h.hora,
-                    this->minu + h.minu,
-                    this->seg + h.seg);
+    HoraDelDia suma(this->horaEnSeg + hDia.horaEnSeg);
     return suma;
 }
-HoraDelDia HoraDelDia::operator++(int seg)
+HoraDelDia HoraDelDia::operator++(int n)
 {
     HoraDelDia temp = *this;
-    ++this->seg;
+    ++this->horaEnSeg;
     return temp;
 }
-HoraDelDia HoraDelDia::operator+=(int seg)
+HoraDelDia& HoraDelDia::operator+=(unsigned seg)
 {
-    HoraDelDia suma(this->hora, this->minu, this->seg + seg);
+    //HoraDelDia suma(this->horaEnSeg + seg);
+    this->horaEnSeg += seg;
+    return *this;
+}
+ostream& operator<<(ostream& sal, const HoraDelDia& hDia)
+{
+    unsigned h, m, s;
+    hDia.getHoraMinuSeg(&h, &m, &s);
+    return sal << h << " " << m << " " << s << endl;
+}
+istream& operator>>(istream& ent, HoraDelDia& hDia)
+{
+    unsigned h, m, s;
+    ent >> h >> m >> s;
+    hDia.horaEnSeg = s + m*MINU_EN_SEG + h*HORA_EN_SEG;
+    if(hDia.horaEnSeg > DIA_EN_SEG)
+    {
+        hDia.horaEnSeg = hDia.horaEnSeg % DIA_EN_SEG;
+    }
+    return ent;
+}
+HoraDelDia operator+(unsigned seg, const HoraDelDia& hDia)
+{
+    HoraDelDia suma(seg + hDia.horaEnSeg);
     return suma;
 }
-ostream& operator<<(ostream& sal, const HoraDelDia& h)
+void HoraDelDia::getHoraMinuSeg(unsigned *h, unsigned *m, unsigned *s) const
 {
-    return sal << h.hora << " " << h.minu << " " << h.seg << endl;
-}
-istream& operator>>(istream& ent, HoraDelDia& h)
-{
-    return ent >> h.hora >> h.minu >> h.seg;
-}
-HoraDelDia operator+(int seg, const HoraDelDia& h)
-{
-    HoraDelDia suma(h.hora, h.minu, h.seg + seg);
-    return suma;
+    *h = *m = *s = 0;
+    unsigned horaEnSeg = this->horaEnSeg;
+
+    *h = horaEnSeg / HORA_EN_SEG;
+    horaEnSeg = horaEnSeg % HORA_EN_SEG;
+
+    *m = horaEnSeg / MINU_EN_SEG;
+    horaEnSeg = horaEnSeg % MINU_EN_SEG;
+
+    *s = horaEnSeg;
 }
 /*
 HoraDelDia HoraDelDia::getHoraMaxima()
