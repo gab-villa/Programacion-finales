@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1676868367 source:c:\users\eslou\desktop\programacion-2\finales\promdekm-2021-08-04\promdekm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Vehiculos.h"
+
+1677005041 source:c:\users\eslou\desktop\programacion-2\finales\promdekm-2021-08-04\promdekm\vehiculos.c
+	"Vehiculos.h"
+
+1677005048 source:c:\users\eslou\desktop\programacion-2\finales\promdekm-2021-08-04\promdekm\tlista.c
+	"tLista.h"
+
+1677005041 c:\users\eslou\desktop\programacion-2\finales\promdekm-2021-08-04\promdekm\tlista.h
+	<stdlib.h>
+	<string.h>
+
+1677002792 c:\users\eslou\desktop\programacion-2\finales\promdekm-2021-08-04\promdekm\vehiculos.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"tVehiculo.h"
+	"tLista.h"
+
+1676867534 c:\users\eslou\desktop\programacion-2\finales\promdekm-2021-08-04\promdekm\tvehiculo.h
+
