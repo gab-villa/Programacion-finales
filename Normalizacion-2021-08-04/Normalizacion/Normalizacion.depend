@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1677216321 source:c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\normalizar.c
+	"normalizar.h"
+
+1677216347 c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\normalizar.h
+	<ctype.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"tCola.h"
+
+1677216153 source:c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\main.c
+	<stdio.h>
+	<stdlib.h>
+	"normalizar.h"
+
+1677213122 source:c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\tpila.c
+	"tPila.h"
+
+1677213092 c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\tpila.h
+	"estructuras.h"
+
+1677213092 c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\estructuras.h
+	<stdlib.h>
+	<string.h>
+
+1677216410 source:c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\tcola.c
+	"tCola.h"
+
+1677216415 c:\users\eslou\desktop\programacion-2\finales\normalizacion-2021-08-04\normalizacion\tcola.h
+	"estructuras.h"
+
