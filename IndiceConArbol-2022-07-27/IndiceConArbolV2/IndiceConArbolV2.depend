@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1677516098 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LoteDePrueba.h"
+
+1677515447 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\tindice.c
+	"tIndice.h"
+
+1677515950 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\tarbol.c
+	"tArbol.h"
+
+1677512474 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\tarbol.h
+	<string.h>
+	<stdlib.h>
+
+1677515497 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\tindice.h
+	"tProducto.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1677465020 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\tproducto.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1677464987 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\tproducto.c
+	"tProducto.h"
+
+1677515578 source:c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\lotedeprueba.c
+	"LoteDePrueba.h"
+
+1677515172 c:\users\eslou\desktop\programacion-2\finales\indiceconarbol-2022-07-27\indiceconarbolv2\lotedeprueba.h
+	<stdio.h>
+	<stdlib.h>
+	"tArbol.h"
+	"tIndice.h"
+	"tProducto.h"
+
